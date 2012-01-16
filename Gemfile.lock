@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    omniauth-jazz (1.0.1)
+      omniauth (~> 1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    hashie (1.2.0)
+    omniauth (1.0.1)
+      hashie (~> 1.2)
+      rack
+    rack (1.4.0)
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rake (0.9.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  omniauth-jazz!
+  rack-test (~> 0.5)
+  rake (~> 0.8)
