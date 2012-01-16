@@ -20,6 +20,17 @@ module OmniAuth
                 consumer.http.verify_depth = 0
                 consumer
             end
+
+            #extra do
+            #    {
+            #        :raw_info => raw_info
+            #    }
+            #end
+            #
+            #def raw_info
+            #    user_path = URI.parse(access_token.get('/jts/whoami').body).path
+            #    @raw_info ||= MultiXml.parse(access_token.get(user_path, {'Accept'=> 'application/rdf+xml'}).body)
+            #end
         end
     end
 end

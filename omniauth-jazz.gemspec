@@ -4,6 +4,7 @@ require File.expand_path('../lib/omniauth-jazz/version', __FILE__)
 Gem::Specification.new do |gem|
 
   gem.add_dependency 'omniauth', '~> 1.0'
+  gem.add_dependency 'omniauth-oauth', '~> 1.0.0'
   gem.add_development_dependency 'rack-test', '~> 0.5'
   gem.add_development_dependency 'rake', '~> 0.8'
 
